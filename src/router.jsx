@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Root from './routes/Root.jsx'
 import ErrorPage from "./ErrorPage.jsx";
 import Login from "./Routes/Login.jsx";
-import Flights from "./routes/Flights.jsx";
+import Dashboard from "./routes/Dashboard.jsx";
 
 // import Login from "./Routes/Login.jsx";
 
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />
     },
     {
-        path: "flights",
-        element: <Flights />,
+        path: "/dashboard",
+        element: <Dashboard />,
         errorElement: <ErrorPage />
     },
 
